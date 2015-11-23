@@ -1,16 +1,11 @@
 /*************************************************************************
-	> File Name: main.c
+	> File Name: struct_def.h
 	> Author: muyiziye
 	> Mail: ahfyly@foxmail.com
-	> Created Time: 2015年11月23日 星期一 20时20分37秒
+	> Created Time: 2015年11月23日 星期一 22时02分18秒
  ************************************************************************/
 
-#include<stdio.h>
-#ifndef MENU_H
-#include"menu.h"
+#ifndef _STRUCT_DEF_H
+#define _STRUCT_DEF_H
 #endif
-int main()
-{
-    showMenu();
-    return 1;
-}
+

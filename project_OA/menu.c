@@ -10,12 +10,32 @@
 
 void showMenu()
 {
-    printf("/*********************/\n");
+    system("clear"); printf("/******************************************************************************/\n");
     printf("\n");
     printf("\n");
-    printf("    this is my OA\n");
     printf("\n");
     printf("\n");
-    printf("/*********************/\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("                             this is my OA\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+printf("/******************************************************************************/\n");
+    sleep(1);
+    // this function can clear screen 
+    system("clear");
+    system("reset");
     return;
 }

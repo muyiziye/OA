@@ -7,7 +7,7 @@ main.o:main.c menu.h
 menu.o:menu.c menu.h
 	cc -c menu.c -o menu.o
 
-
+.PHONY:clean
 clean:
 	-rm *.o oa
 
