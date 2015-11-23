@@ -7,5 +7,20 @@
 
 #ifndef _STRUCTDEF_H
 #define _STRUCTDEF_H
+typedef struct
+{
+    float breakFaseFee;
+    float lunchFee;
+    float dinnerFee;
+    float shoppingFee;
+    float otherFee;
+}DAILYPAY;
+
+typedef struct 
+{
+    float wage;
+    float otherEarn;
+}DAILYEARN;
+
 #endif
 
