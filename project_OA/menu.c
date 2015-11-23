@@ -10,7 +10,9 @@
 
 void showMenu()
 {
-    system("clear"); printf("/******************************************************************************/\n");
+    // this function can clear screen
+    system("clear");
+printf("/******************************************************************************/\n");
     printf("\n");
     printf("\n");
     printf("\n");
@@ -20,9 +22,7 @@ void showMenu()
     printf("\n");
     printf("\n");
     printf("\n");
-    printf("\n");
-    printf("                             this is my OA\n");
-    printf("\n");
+    printf("                                this is my OA\n");
     printf("\n");
     printf("\n");
     printf("\n");
@@ -33,7 +33,8 @@ void showMenu()
     printf("\n");
     printf("\n");
 printf("/******************************************************************************/\n");
-    sleep(1);
+    printf("pls input \'Enter\' to transfer other window\n");
+    getchar();
     // this function can clear screen 
     system("clear");
     system("reset");
