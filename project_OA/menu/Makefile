@@ -1,7 +1,7 @@
 INCLUDE += menu.h
 
 menu.o:menu.c $(INCLUDE)
-	gcc -c $< -o $@
+	cc -c $< -o $@
 
 .PHONY:clean
 clean:
