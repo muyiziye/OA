@@ -5,4 +5,4 @@ menu.o:menu.c $(INCLUDE)
 
 .PHONY:clean
 clean:
-	rm *.o
+	-rm -f *.o

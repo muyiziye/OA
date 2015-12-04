@@ -11,4 +11,4 @@ init/main.o:
 clean:
 	(cd init;make clean)
 	(cd menu;make clean)
-	-rm oa
+	-rm -f oa

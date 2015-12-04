@@ -3,4 +3,4 @@ main.o:main.c
 
 .PHONY:clean
 clean:
-	rm *.o
+	-rm -f *.o
