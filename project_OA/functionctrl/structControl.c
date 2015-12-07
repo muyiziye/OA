@@ -24,3 +24,20 @@ void insertNode(DEILYPAYEARN_T_P head)
 	head->next = node;
 }
 
+void modifyNode(DEILYPAYEARN_T_P head)
+{
+    int day;
+    DEILYPAYEARN_T_P tmp;
+    tmp = (DEILYPAYEARN_T_P)malloc(sizeof(DEILYPAYEARN_T));
+    tmp = head;
+    printf("pls input the day\n");
+    scanf("%d", &day);
+    while(NULL != tmp->next)
+    {
+        if(day == tmp->day)
+        {
+            addData(tmp);
+        }
+        tmp = tmp->next;
+    }
+}

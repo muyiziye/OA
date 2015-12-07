@@ -21,5 +21,5 @@ DEILYPAYEARN_T_P createHead();
 void insertNode(DEILYPAYEARN_T_P head);
 
 // This function will modify a Node 
-void modifyNode();
+void modifyNode(DEILYPAYEARN_T_P head);
 #endif
