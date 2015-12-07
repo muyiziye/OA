@@ -11,12 +11,14 @@
 #ifndef _STRUCTDEF_H
 #include"structDef.h"
 #endif
+#include <stdio.h>
+#include <stdlib.h>
 
 // This function will create a head point of DEILYPAYEARN_T
-DEILYPAYEARN_T* createHead();
+DEILYPAYEARN_T_P createHead();
 
 // This function will insert a Node to linkList
-void insertNode(DEILYPAYEARN_T *head);
+void insertNode(DEILYPAYEARN_T_P head);
 
 // This function will modify a Node 
 void modifyNode();

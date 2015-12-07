@@ -7,7 +7,7 @@
 
 #ifndef _STRUCTDEF_H
 #define _STRUCTDEF_H
-typedef struct
+typedef struct deilypayearn
 {
     int day;
     float breakFaseFee;
@@ -17,7 +17,8 @@ typedef struct
     float otherFee;
     float wage;
     float otherEarn;
-}DEILYPAYEARN_T;
+	struct deilypayearn* next;
+}DEILYPAYEARN_T, *DEILYPAYEARN_T_P;
 
 #endif
 
