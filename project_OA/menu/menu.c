@@ -38,10 +38,35 @@ printf("/***********************************************************************
     printf("pls input \'Enter\' to transfer other window\n");
     getchar();
     // this function can clear screen 
-    system("clear");
     system("reset");
-    DEILYPAYEARN_T_P head;
-	head = createHead();
-	insertNode(head);
+	showSelectMenu();
     return;
+}
+
+void showSelectMenu()
+{
+    int num = 0;
+	printf("1:add, 2:delete, 3:modify, 4:select\n");    
+	printf("pls input yours choice\n");
+    scanf("%d", &num);
+	enterFunction(num);
+}
+
+void enterFunction(int num)
+{
+    switch(num)
+	{
+	    case 1:
+
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		case 4:
+			break;
+		default:
+			    printf("pls input a true num\n");
+			break;
+	}
 }

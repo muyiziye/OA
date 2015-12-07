@@ -8,4 +8,9 @@
 #ifndef _MENU_H
 #define _MENU_H
 void showMenu();
+
+void showSelectMenu();
+
+void enterFunction(int num);
 #endif
+
