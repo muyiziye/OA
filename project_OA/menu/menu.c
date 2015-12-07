@@ -7,6 +7,8 @@
 
 #include<stdio.h>
 #include"menu.h"
+#include "../define/structDef.h"
+#include "../functionctrl/structControl.h"
 
 void showMenu()
 {
@@ -38,5 +40,8 @@ printf("/***********************************************************************
     // this function can clear screen 
     system("clear");
     system("reset");
+    DEILYPAYEARN_T_P head;
+	head = createHead();
+	insertNode(head);
     return;
 }

@@ -10,7 +10,7 @@
 typedef struct deilypayearn
 {
     int day;
-    float breakFaseFee;
+    float breakFastFee;
     float lunchFee;
     float dinnerFee;
     float shoppingFee;

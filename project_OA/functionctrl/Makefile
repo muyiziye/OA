@@ -1,9 +1,7 @@
-INCLUDE += structControl.h ../define/structDef.h
+INCLUDE += structControl.h ../define/structDef.h ../io/io.h
 
-structControl.o:
-#structControl.o:structControl.c $(INCLUDE)
-%.o:%.c $(INCLUDE)
-	cc -I ../define/ -c $< -o $@
+structControl.o:structControl.c $(INCLUDE)
+	cc -c $< -o $@ -I ../define -I ../io
 
 .PHONY:clean
 clean:
