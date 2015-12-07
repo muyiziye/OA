@@ -7,10 +7,9 @@
 
 #include<stdio.h>
 #include"menu.h"
-#include "../define/structDef.h"
-#include "../functionctrl/structControl.h"
 
-void showMenu()
+#include "../functionctrl/structControl.h"
+void showMenu(DEILYPAYEARN_T_P head)
 {
     // this function can clear screen
     system("clear");
@@ -39,25 +38,25 @@ printf("/***********************************************************************
     getchar();
     // this function can clear screen 
     system("reset");
-	showSelectMenu();
+	showSelectMenu(head);
     return;
 }
 
-void showSelectMenu()
+void showSelectMenu(DEILYPAYEARN_T_P head)
 {
     int num = 0;
 	printf("1:add, 2:delete, 3:modify, 4:select\n");    
 	printf("pls input yours choice\n");
     scanf("%d", &num);
-	enterFunction(num);
+	enterFunction(head, num);
 }
 
-void enterFunction(int num)
+void enterFunction(DEILYPAYEARN_T_P head, int num)
 {
     switch(num)
 	{
 	    case 1:
-
+			insertNode(head);
 			break;
 		case 2:
 			break;

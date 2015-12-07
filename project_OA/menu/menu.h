@@ -7,10 +7,11 @@
 
 #ifndef _MENU_H
 #define _MENU_H
-void showMenu();
+#include "../define/structDef.h"
+void showMenu(DEILYPAYEARN_T_P head);
 
-void showSelectMenu();
+void showSelectMenu(DEILYPAYEARN_T_P head);
 
-void enterFunction(int num);
+void enterFunction(DEILYPAYEARN_T_P head, int num);
 #endif
 

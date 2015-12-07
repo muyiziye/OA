@@ -10,9 +10,13 @@
 #ifndef MENU_H
 #include"menu.h"
 #endif
+#include "../define/structDef.h"
+#include "../functionctrl/structControl.h"
 
 int main()
 {
-    showMenu();
+    DEILYPAYEARN_T_P head;
+	head = createHead();
+    showMenu(head);
     return 1;
 }
