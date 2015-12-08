@@ -45,7 +45,7 @@ printf("/***********************************************************************
 void showSelectMenu(DEILYPAYEARN_T_P head)
 {
     int num = 0;
-    printf("1:add, 2:delete, 3:modify, 4:select\n");    
+    printf("1:add, 2:delete, 3:modify, 4:select, 5:exit\n");    
 	printf("pls input yours choice\n");
     scanf("%d", &num);
 	enterFunction(head, num);
@@ -64,6 +64,9 @@ void enterFunction(DEILYPAYEARN_T_P head, int num)
             modifyNode(head);
 			break;
 		case 4:
+			break;
+		case 5:
+	        exit(0);
 			break;
 		default:
 			printf("pls input a true num\n");

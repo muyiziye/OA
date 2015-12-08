@@ -21,6 +21,7 @@ void insertNode(DEILYPAYEARN_T_P head)
 	node = (DEILYPAYEARN_T_P)malloc(sizeof(DEILYPAYEARN_T));
 	node->next = NULL;
 	addData(node);
+	node->next = head->next;
 	head->next = node;
 }
 
