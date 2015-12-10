@@ -42,3 +42,15 @@ void modifyNode(DEILYPAYEARN_T_P head)
         tmp = tmp->next;
     }
 }
+
+void showAllNode(DEILYPAYEARN_T_P head)
+{
+	DEILYPAYEARN_T_P tmp;
+	tmp = (DEILYPAYEARN_T_P)malloc(sizeof(DEILYPAYEARN_T));
+	tmp = head;
+	while(NULL != tmp->next)
+	{
+		showData(tmp);
+		tmp = tmp->next;
+	}
+}

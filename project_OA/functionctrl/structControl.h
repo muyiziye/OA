@@ -22,4 +22,7 @@ void insertNode(DEILYPAYEARN_T_P head);
 
 // This function will modify a Node 
 void modifyNode(DEILYPAYEARN_T_P head);
+
+// This function will show all node
+void showAllNode(DEILYPAYEARN_T_P head);
 #endif
