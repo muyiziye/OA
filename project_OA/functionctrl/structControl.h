@@ -10,8 +10,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#ifndef _STRUCTDEF_H
 #include"structDef.h"
-
+#endif 
 // This function will create a head point of DEILYPAYEARN_T
 DEILYPAYEARN_T_P createHead();
 
