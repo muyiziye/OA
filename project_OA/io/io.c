@@ -21,7 +21,7 @@ void addData(DEILYPAYEARN_T_P node)
 	scanf("%f", &node->shoppingFee);
 	printf("pls input the otherFee\n");
 	scanf("%f", &node->otherFee);
-	printf("psd input the wage\n");
+	printf("pls input the wage\n");
 	scanf("%f", &node->wage);
 	printf("pls input the otherEarn\n");
 	scanf("%f", &node->otherEarn);
@@ -29,6 +29,6 @@ void addData(DEILYPAYEARN_T_P node)
 
 void showData(DEILYPAYEARN_T_P node)
 {
-	printf("day:%d, breakFast:%f, lunch:%f, dinner:%f, shopping:%f, otherfee:%f, wage:%f, otherearn:%f\n",node->day, 
+	printf("day:%d, breakFast:%.1f, lunch:%.1f, dinner:%.1f, shopping:%.1f, otherfee:%.1f, wage:%.1f, otherearn:%.1f\n",node->day, 
 			node->breakFastFee, node->lunchFee, node->dinnerFee, node->shoppingFee, node->otherFee, node->wage, node->otherEarn);
 }

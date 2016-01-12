@@ -47,7 +47,7 @@ void showSelectMenu(DEILYPAYEARN_T_P head)
     int num = 0;
 	while(1)
 	{
-        printf("1:add, 2:delete, 3:modify, 4:select, 5:exit\n");    
+        printf("1:add, 2:show, 3:modify, 4:select, 5:exit\n");    
 	    printf("pls input yours choice\n");
         scanf("%d", &num);
     	enterFunction(head, num);

@@ -23,13 +23,13 @@ void insertNode(DEILYPAYEARN_T_P head)
 	addData(node);
 	node->next = head->next;
 	head->next = node;
+    showAllNode(head->next);
 }
 
 void modifyNode(DEILYPAYEARN_T_P head)
 {
     int day;
     DEILYPAYEARN_T_P tmp;
-    tmp = (DEILYPAYEARN_T_P)malloc(sizeof(DEILYPAYEARN_T));
     tmp = head;
     printf("pls input the day\n");
     scanf("%d", &day);
@@ -41,16 +41,17 @@ void modifyNode(DEILYPAYEARN_T_P head)
         }
         tmp = tmp->next;
     }
+    return;
 }
 
 void showAllNode(DEILYPAYEARN_T_P head)
 {
 	DEILYPAYEARN_T_P tmp;
-	tmp = (DEILYPAYEARN_T_P)malloc(sizeof(DEILYPAYEARN_T));
 	tmp = head;
 	while(NULL != tmp->next)
 	{
-		showData(tmp);
-		tmp = tmp->next;
+	    tmp = tmp->next;
+	    showData(tmp);
 	}
+    return;
 }
