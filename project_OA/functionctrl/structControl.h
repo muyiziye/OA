@@ -8,11 +8,9 @@
 #ifndef _STRUCTCONTROL_H
 #define _STRUCTCONTROL_H
 
-#ifndef _STRUCTDEF_H
-#include"structDef.h"
-#endif
 #include <stdio.h>
 #include <stdlib.h>
+#include"structDef.h"
 
 // This function will create a head point of DEILYPAYEARN_T
 DEILYPAYEARN_T_P createHead();
